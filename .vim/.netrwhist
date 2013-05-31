@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/ulan/projects/porta-rt.git/local'
+let g:netrw_dirhist_2='/home/ulan/projects/porta-rt.git/local/etc'
+let g:netrw_dirhist_3='/home/ulan/projects/porta-rt.git/local'
+let g:netrw_dirhist_4='/home/ulan/projects/porta-rt.git/local/lib'
+let g:netrw_dirhist_5='/home/ulan/projects/porta-rt.git/local/lib/RT'
+let g:netrw_dirhist_6='/home/ulan/projects/porta-rt.git/local/lib/RT/Action'
+let g:netrw_dirhist_7='/home/ulan/projects/porta-rt.git'
+let g:netrw_dirhist_8='/home/ulan/projects/porta-rt.git/bin'
