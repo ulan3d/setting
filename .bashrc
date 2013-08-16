@@ -15,7 +15,7 @@ alias	ver='[ -d .svn ] && svn status --show-updates --verbose || cvs status'
 alias	trr='traceroute'
 #alias	chme='sudo chown -R porta-one ~porta-one'
 #alias	rpwd='/home/porta-billing/porta-admin.pl resetpwd porta-support ='
-alias   grep='grep --color'
+alias   grep='grep --color --exclude-dir=I18N'
 #alias   msql='mysql -u root -h porta-billing-master porta-billing'
 #alias   ssql='mysql -u root -h porta-billing-slave -P3307 porta-billing'
 #alias   sqlplus='rlwrap -b "" -f ~porta-one/etc/oracle.dict sqlplus'
@@ -82,6 +82,7 @@ alias gck='git checkout'
 alias gsh='git show'
 alias gdf='git diff'
 alias gl='git log --graph'
+alias pdc='perldoc'
 
 export PS1='\[\0337\033k\033\\\0338\]'"$timeC $relC$userC$sep1$hostC$sep2$pathC"\
 "\`[ \$? = "0" ] || echo '$lred'\`$sep3"

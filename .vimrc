@@ -12,6 +12,11 @@ set expandtab
 set smartindent
 
 set laststatus=2
+set statusline=%<%f%h%m%r\ %{&encoding}\ \ \ %l,%c\ \ \ %P\ \ \ %b
+
+"выключить линейку
+"set noruler
+
 " CTRL-Tab is Next tab
 nnoremap [1;2C :tabn<CR>
 
